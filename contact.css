@@ -1,0 +1,81 @@
+*{padding: 0px;
+margin: 0px;
+box-sizing: border-box;}
+
+.container{text-align: center;
+border: 5px solid white;
+background-size: cover;
+background-color: white;
+margin-top: 150px;}
+
+
+button{width: 120px;
+height: 35px;
+background-color: rgb(19, 19, 105);
+color: white;
+border-radius: 10px;}
+
+button:hover{scale: 1.1;}
+
+
+form{background-color: white;
+border: 5px solid white;
+background-size: cover;
+box-shadow: 0 0 8px;
+height: 800px;
+margin: 20px;
+margin-top: -100px;
+margin-left: 100px;
+margin-right: 100px;
+padding: 100px;}
+
+input{width: 500px;
+height: 40px;}
+
+.message{width: 500px;
+height: 100px;}
+
+.other{display: flex;
+gap: 100px;
+font-size: 20px;
+margin-left: 450px;
+margin-top: 50px;}
+
+a{color: white;
+font-size: 50px;
+text-decoration: none;
+}
+.btn{width: 60px;
+height: 70px;
+background-color: black;
+border-radius: 10px;
+margin-left: 2000px;
+margin-top: 50px;}
+
+@media (max-width: 768px) {
+  input, .message {
+    width: 90%;
+    max-width: 90%;
+    margin-left: 10px;
+    height: 50px;
+  }
+
+  form {
+    padding: 20px;
+    margin: 10px auto;
+    margin-top: -120px;
+  }
+
+  }
+
+  .btn {
+    margin: 20px auto;
+    width: 50px;
+    height: 60px;
+    margin-left: 310px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+}
